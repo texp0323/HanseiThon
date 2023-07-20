@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RGenemy
+  - EndPortal
+  - RGscoreText
+  - PGenemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - RGhitAble
+  - Water
+  - UI
+  - Case
+  - PGplayer
+  - PGenemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RG
+    uniqueID: 1628644001
+    locked: 0
+  - name: PG
+    uniqueID: 577484801
+    locked: 0
+  - name: UI
+    uniqueID: 728527559
+    locked: 0
