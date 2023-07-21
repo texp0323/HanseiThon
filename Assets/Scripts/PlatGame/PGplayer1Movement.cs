@@ -72,4 +72,15 @@ public class PGplayer1Movement : MonoBehaviour
     {
         rigid.velocity = new Vector2(h * moveSpeed * Time.deltaTime, rigid.velocity.y);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("EndPortal"))
+            GameManager.GameChange();
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("PGenemy"))
+            GameManager.SceneReload(3);
+    }
 }

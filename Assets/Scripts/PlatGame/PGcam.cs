@@ -15,6 +15,6 @@ public class PGcam : MonoBehaviour
         if(PGplayerController.pinPlayer == 2)
             pinX = player2.position.x;
         transform.position = Vector3.Lerp(transform.position,
-            new Vector3(pinX, transform.position.y, -10), Time.deltaTime * 7);
+            new Vector3(pinX + 3, transform.position.y, -10), Time.deltaTime * 7);
     }
 }

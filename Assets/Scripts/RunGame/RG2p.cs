@@ -15,7 +15,7 @@ public class RG2p : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow) && jumpAble)
+        if (Input.GetKey(KeyCode.W) && jumpAble)
             Jump();
     }
 

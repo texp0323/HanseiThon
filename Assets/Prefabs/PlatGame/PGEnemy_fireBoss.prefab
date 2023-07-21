@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyType: 0
-  isBoss: 0
+  isBoss: 1
   hp: 10
 --- !u!95 &7385199435572916522
 Animator:

@@ -8,6 +8,9 @@ TagManager:
   - EndPortal
   - RGscoreText
   - PGenemy
+  - Brick
+  - Bar
+  - reloadWall
   layers:
   - Default
   - TransparentFX
@@ -50,6 +53,9 @@ TagManager:
     locked: 0
   - name: PG
     uniqueID: 577484801
+    locked: 0
+  - name: SG
+    uniqueID: 353477771
     locked: 0
   - name: UI
     uniqueID: 728527559
